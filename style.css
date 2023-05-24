@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+.bgimg{
+    background-image: url("../images/akatsukibg.jpg");
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+.container{
+    display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: center;
+}
+.navbar{
+ color: #f0f0f0;
+ z-index: 1;
+ width: 800px;
+  background-color: #21101029;
+ height: 50px;
+ margin-top: 60px;
+ border-radius: 25px;
+ position: relative;
+ right: 150px;
+ backdrop-filter: blur(25px);
+ border: 1px solid rgba(255, 255, 255, 0.2);
+ display: flex;
+ flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.divider{
+    height: 30px;
+    width: 1px;
+    background-color: #f0f0f0;
+    
+}
+.name{
+    margin: 5px;
+    font-family: 'Creepster', cursive;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.content{
+    color: #f0f0f0;
+    z-index: 1;
+   width: 80%;
+   display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 150px;
+    font-family: 'Creepster', cursive;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    right: 180px;
+}
+.slogan{
+    font-size: 40px;
+    
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    right: 180px;
+}
