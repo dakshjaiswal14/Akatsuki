@@ -5,7 +5,7 @@ body{
     background-color: #f0f0f0;
 }
 .bgimg{
-    background-image: url("../images/akatsukibg.jpg");
+    background-image: url("./akatsukibg.jpg");
     width: 100%;
     height: 100vh;
     position: absolute;
